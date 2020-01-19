@@ -1,0 +1,38 @@
+$green: #72de62;
+$dark-gray: #cccccc;
+$light-gray: #e8e8e8;
+
+.background {
+  height: 28px;
+  width: 56px;
+  border-radius: 15px;
+  border: 2px solid $light-gray;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+.backtrue {
+  background: $green;
+}
+.backfalse {
+  background: white;
+}
+.button {
+  background: white;
+  border: 2px solid $dark-gray;
+  position: relative;
+  top: 1px;
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.button:focus {
+  outline: none;
+}
+.true {
+  left: 14px;
+}
+.false {
+  left: -14px;
+}
